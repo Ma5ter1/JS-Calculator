@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>JS Calculator</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="Calculator.css">
+      <script src="Calculator.js"></script>
+  </head>
+  <body>
+  <div class="container">
+    <input id="outputbox" style="width:150px;"></input><input id="resultbox" style="width:150px;"></input>
+    <br></br>
+    <button id="buttonclear" type="button" onclick="checkButtonClearClicked()" value="">C</button><button type="button" onclick="calculate()">CE</button><button type="button" onclick="calculate()">%</button><button id="buttondivide" type="button" onclick="checkButtonDivideClicked()" value="divide">/</button>
+    <br></br>
+    <button id="button7" type="button" onclick="checkButtonSevenClicked()" value="7">7</button>
+    <button id="button8" type="button" onclick="checkButtonEightClicked()" value="8">8</button>
+    <button id="button9" type="button" onclick="checkButtonNineClicked()" value="9">9</button>
+    <button id="buttonmultiply" type="button" onclick="checkButtonMultiplyClicked()" value="multiply">X</button>
+    <br></br>
+    <button id="button4" type="button" onclick="checkButtonFourClicked()" value="4">4</button>
+    <button id="button5" type="button" onclick="checkButtonFiveClicked()" value="5">5</button>
+    <button id="button6" type="button" onclick="checkButtonSixClicked()" value="6">6</button>
+    <button id="buttonminus" type="button" onclick="checkButtonMinusClicked()" value="minus">-</button>
+    <br></br>
+    <button id="button1" type="button" onclick="checkButtonOneClicked()" value="1">1</button>
+    <button id="button2" type="button" onclick="checkButtonTwoClicked()" value="2">2</button>
+    <button id="button3" type="button" onclick="checkButtonThreeClicked()" value="3">3</button>
+    <button id="buttonplus" type="button" onclick="checkButtonPlusClicked()" value="plus">+</button>
+    <br></br>
+    <button id="button0" type="button" onclick="checkButtonZeroClicked()" value="0">0</button>
+    <button id="buttondecimal" type="button" onclick="checkButtonDecimalClicked()" value="decimal">.</button>
+    <button id="buttonequal" type="button" onclick="checkButtonEqualClicked()" value="equal">=</button>
+  </body>
+</html>
